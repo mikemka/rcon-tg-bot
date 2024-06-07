@@ -1,0 +1,5 @@
+.DS_Store
+venv/
+.env
+start_bot.sh
+__pycache__/
