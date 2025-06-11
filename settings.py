@@ -14,10 +14,8 @@ TOKEN = getenv('TG_TOKEN')
 
 RCON_IP = getenv('RCON_IP')
 
-RCON_PORT = getenv('RCON_PORT')
+RCON_PORT = int(getenv('RCON_PORT'))
 
 RCON_PWD = getenv('RCON_PWD')
 
 TG_ADMIN_GROUP_ID = getenv('TG_ADMIN_GROUP_ID')
-
-ADMIN_ID = getenv('ADMIN_ID')
